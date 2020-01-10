@@ -1,0 +1,1902 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://xmlns.com/foaf/0.1/"
+        xml:base="http://xmlns.com/foaf/0.1/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <owl:Ontology rdf:about="http://xmlns.com/foaf/0.1/">
+                <dc:description>The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and
+ the Web Ontology Language.</dc:description>
+        <dc:title>Friend of a Friend (FOAF) vocabulary</dc:title>
+    </owl:Ontology>
+
+
+
+
+
+
+	<owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#float">
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/Glycoprotein">
+		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+		<rdfs:seeAlso rdf:resource=""/>
+		<rdfs:isDefinedBy rdf:resource=""/>
+		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:label>
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/Pathway_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Propeptide_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/SELDI">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Journal_Citation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/NMR_Spectroscopy">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Pathway_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Image">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Database">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/conjugate#Glycosylation_Site">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Mutagenesis_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Evidence_at_Transcript_Level_Existence">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Part">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Chain_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/FAB">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Infrared_Spectroscopy">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/MALDI">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Nucleotide_Binding_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Gene">
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/Disease_Ontology">
+		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+		<rdfs:seeAlso rdf:resource=""/>
+		<rdfs:isDefinedBy rdf:resource=""/>
+		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:label>
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/X-Ray_Crystallography">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Lipidation_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Simple_Sequence">
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/Canonical_Residue">
+		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+		<rdfs:seeAlso rdf:resource=""/>
+		<rdfs:isDefinedBy rdf:resource=""/>
+		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:label>
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Transcript_Resource">
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/Reaction_Participant">
+		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+		<rdfs:seeAlso rdf:resource=""/>
+		<rdfs:isDefinedBy rdf:resource=""/>
+		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:label>
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Glycosyl_Hydrolase_Reaction">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Enzyme_Regulation_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Active_Site_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Tissue">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Polymorphism_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Saccharide">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Natural_Variant_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Electron_Microscopy">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Activity_Regulation_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Alternative_Sequence_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/ESI">
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/Gene_Locus">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Helix_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Glycan_Motif">
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/Xref_Identifier">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Modified_Sequence">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Sequence_Conflict_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://www.biohackathon.org/resource/faldo#FuzzyPosition">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Structured_Name">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Glycosyltransferase_Reaction">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Carbohydrate_Format">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Resource">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Domain_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Neutron_Diffraction">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#int">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Disulfide_Bond_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Glycosequence">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Self_Interaction">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Domain_Extent_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://www.biohackathon.org/resource/faldo#ExactPosition">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Pathway">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Disruption_Phenotype_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Fiber_Diffraction">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Modified_Residue_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Domain_Extent_Annotatio">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/API">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Beta_Strand_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Metal_Binding_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Calcium_Binding_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/External_Sequence">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Inferred_from_Homology_Existence">
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/GO_Classifier">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Disease_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/NP_Binding_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Source_Natural">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Concept">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Evidence">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#boolean">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Cofactor_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Non_Self_Interaction">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Enzyme">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Predicted_Existence">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Uncertain_Existence">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Turn_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#token">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Catalytic_Activity_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Cellular_Component">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#string">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Cross-link_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Glycosylation_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Motif_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Participant">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/PD">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Site_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Sequence_Caution_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Subcellular_Location_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://www.biohackathon.org/resource/faldo#Region">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/LSIMS">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Initiator_Methionine_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Binding_Site_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Taxon">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Intramembrane_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Function_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Evidence_at_Protein_Level_Existence">
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/Saccharide_Set">
+		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+		<rdfs:seeAlso rdf:resource=""/>
+		<rdfs:isDefinedBy rdf:resource=""/>
+		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharide Set</rdfs:label>
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Signal_Peptide_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Amino_Acid">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Interaction">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Protein">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Glycan_Database">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Prediction">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/PTM_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Peptide_Annotation">
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/Reaction_Annotation">
+		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+		<rdfs:seeAlso rdf:resource=""/>
+		<rdfs:isDefinedBy rdf:resource=""/>
+		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:label>
+	</owl:Class>
+
+	<owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#date">
+	</owl:Class>
+
+	<owl:Class rdf:about="http://purl.uniprot.org/core/Structure_Resource">
+	</owl:Class>
+
+	<owl:Class rdf:about="https://sparql.glygen.org/ontology/Translated_Sequence">
+		<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+		<rdfs:seeAlso rdf:resource=""/>
+		<rdfs:isDefinedBy rdf:resource=""/>
+		<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:label>
+	</owl:Class>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/fullName">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+		<rdfs:domain rdf:resource="disease_IRI"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cellular_Component"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Concept"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Gene"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/xrefIdentifier">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Reaction_Participant"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/Xref_Identifier"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/existence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Evidence_at_Protein_Level_Existence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/existence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Evidence_at_Transcript_Level_Existence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/existence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Inferred_from_Homology_Existence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/existence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Predicted_Existence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/existence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Uncertain_Existence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/geneRange">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Gene_Locus"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/attribution">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="IRI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/activity">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/created">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/locatedIn">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Subcellular_Location_Annotation"/>
+		<rdfs:range rdf:resource="location_IRI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+		<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Participant"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Tissue"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/submittedName">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/abbreviation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Database"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+		<rdfs:domain rdf:resource="disease_IRI"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Resource"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cellular_Component"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Resource"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Natural_Variant_Annotation"/>
+		<rdfs:range rdf:resource="IRI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Pathway_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Pathway"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Resource"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.biohackathon.org/resource/faldo#begin">
+		<rdfs:domain rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#ExactPosition"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/pathwayDatabase">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Pathway_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Database"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/date">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/exonRange">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Transcript_Resource"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/hasLocus">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Gene"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/Gene_Locus"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#related">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Natural_Variant_Annotation"/>
+		<rdfs:range rdf:resource="IRI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/chainSequenceMapping">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+		<rdfs:range rdf:resource="IRI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/mnemonic">
+		<rdfs:domain rdf:resource="disease_IRI"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/mnemonic">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/alternativeName">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Part"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/alternativeName">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/rxnDisease">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Reaction_Annotation"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/Disease_Ontology"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/rxnSummary">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Reaction_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/citation">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Evidence"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/citation">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Reaction_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/citation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/xrefId">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Xref_Identifier"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/rxnOutput">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Reaction_Annotation"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/Reaction_Participant"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/encodedBy">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Gene"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/canonical">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/has_canonical_residue">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/Canonical_Residue"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/conflictingSequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Sequence_Conflict_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/External_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/modified">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/modified">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.biohackathon.org/resource/faldo#position">
+		<rdfs:domain rdf:resource="http://www.biohackathon.org/resource/faldo#ExactPosition"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/organism">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Taxon"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/version">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/version">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/scientificName">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Taxon"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+		<rdfs:domain rdf:resource="disease_IRI"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cellular_Component"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Concept"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Gene"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/volume">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/conjugate#has_saccharide">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/conjugate#Glycosylation_Site"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/conjugate#has_saccharide">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Saccharide_Set"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Glycoprotein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cofactor_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cross-link_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/External_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cross-link_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Modified_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Glycosylation_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Modified_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Initiator_Methionine_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Modified_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Lipidation_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Modified_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Modified_Residue_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/External_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Modified_Residue_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Modified_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Modified_Residue_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Natural_Variant_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Sequence_Caution_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Sequence_Conflict_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/sequence">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Subcellular_Location_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/title">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#has_glycosequence">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycan_Motif"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycosequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#has_glycosequence">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycosequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/isolatedFrom">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Tissue"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/enzyme">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Part"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/enzyme">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#has_sequence">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycosequence"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.biohackathon.org/resource/faldo#location">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/conjugate#Glycosylation_Site"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#ExactPosition"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.biohackathon.org/resource/faldo#location">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/conjugate#Glycosylation_Site"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#FuzzyPosition"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/interaction">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Interaction"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/interaction">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Non_Self_Interaction"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/interaction">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Self_Interaction"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/participant">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Interaction"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Participant"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/participant">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Non_Self_Interaction"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Participant"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/participant">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Self_Interaction"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Participant"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/xeno">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Interaction"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/xeno">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Non_Self_Interaction"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/xeno">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Self_Interaction"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#in_carbohydrate_format">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycosequence"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Carbohydrate_Format"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/cellularLocation">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Reaction_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/cellularLocation">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Reaction_Participant"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/mass">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#has_evidence">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Evidence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#has_evidence">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Glycoprotein"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Evidence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/pages">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/conjugate#glycosylated_at">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Glycoprotein"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/conjugate#Glycosylation_Site"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#has_taxon">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Source_Natural"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Taxon"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/crc64Checksum">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/translatedTo">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Transcript_Resource"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/Translated_Sequence"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/rxnName">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Reaction_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/goClassification">
+		<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/Reaction_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Active_Site_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Activity_Regulation_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Alternative_Sequence_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Beta_Strand_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Binding_Site_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Calcium_Binding_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Catalytic_Activity_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Chain_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Cofactor_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Cross-link_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Disease_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Disruption_Phenotype_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Disulfide_Bond_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Domain_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Domain_Extent_Annotatio"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Function_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Glycosylation_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Initiator_Methionine_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Intramembrane_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Lipidation_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Metal_Binding_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Modified_Residue_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Motif_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Mutagenesis_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Natural_Variant_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/NP_Binding_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Nucleotide_Binding_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Peptide_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Polymorphism_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Propeptide_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/PTM_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Sequence_Caution_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Sequence_Conflict_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Signal_Peptide_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Site_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Subcellular_Location_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/annotation">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Turn_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/measuredValue">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/shortName">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/pathwayName">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Pathway_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/transcriptRange">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Transcript_Resource"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/ecName">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#glycan_database">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycan_Database"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#has_amino_acid">
+		<rdfs:domain rdf:resource="http://www.biohackathon.org/resource/faldo#ExactPosition"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Amino_Acid"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#recordurl">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycan_Database"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/rxnInput">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Reaction_Annotation"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/Reaction_Participant"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/obsolete">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/pathwaySummary">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Pathway_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/resolution">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/API"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/ESI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/FAB"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/LSIMS"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/MALDI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/PD"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/SELDI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Electron_Microscopy"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Fiber_Diffraction"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Infrared_Spectroscopy"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Neutron_Diffraction"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/NMR_Spectroscopy"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Prediction"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/method">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/X-Ray_Crystallography"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#has_image">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Image"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/classifiedWith">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/GO_Classifier"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/cellularComponent">
+		<rdfs:domain rdf:resource="location_IRI"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Cellular_Component"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/ensTranscript">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Transcript_Resource"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/fragment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/evidence">
+		<rdfs:domain rdf:resource="attrib_IRI"/>
+		<rdfs:range rdf:resource="evidence_IRI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#synthesized_by">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycosyltransferase_Reaction"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/orfName">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Gene"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#has_url_template">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycan_Database"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/recommendedName">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Part"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/recommendedName">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Structured_Name"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/name">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/name">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/author">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/has_residue_name">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Canonical_Residue"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/component">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Part"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/disease">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Disease_Annotation"/>
+		<rdfs:range rdf:resource="disease_IRI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/chromosome">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Gene_Locus"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/chromosome">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Transcript_Resource"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+		<rdfs:range rdf:resource="IRI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="disease_IRI"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Active_Site_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Alternative_Sequence_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Binding_Site_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Calcium_Binding_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Catalytic_Activity_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cellular_Component"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Chain_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cofactor_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cross-link_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Disease_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Disruption_Phenotype_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Disulfide_Bond_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Domain_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Domain_Extent_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Enzyme_Regulation_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Function_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Glycosylation_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Initiator_Methionine_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Intramembrane_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Lipidation_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Metal_Binding_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Modified_Residue_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Motif_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mutagenesis_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Natural_Variant_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/NP_Binding_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Nucleotide_Binding_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Peptide_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Polymorphism_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Propeptide_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/PTM_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Resource"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Sequence_Caution_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Signal_Peptide_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Site_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Subcellular_Location_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/database">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Resource"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Database"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/database">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Structure_Resource"/>
+		<rdfs:range rdf:resource="IRI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/has_residue_id">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Canonical_Residue"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/precursor">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/hasReaction">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Pathway_Annotation"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/Reaction_Annotation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/participantName">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Reaction_Participant"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/cofactorLabel">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/measuredError">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://www.biohackathon.org/resource/faldo#end">
+		<rdfs:domain rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#ExactPosition"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/doName">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Disease_Ontology"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/reviewed">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Protein"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/reviewed">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#is_from_source">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Source_Natural"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/attached_by">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Canonical_Residue"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycosyltransferase_Reaction"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/source">
+		<rdfs:domain rdf:resource="attrib_IRI"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Journal_Citation"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/has_parent">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Canonical_Residue"/>
+		<rdfs:range rdf:resource="https://sparql.glygen.org/ontology/Canonical_Residue"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/replacedBy">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/replaces">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Enzyme"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/xrefIdType">
+		<rdfs:domain rdf:resource="https://sparql.glygen.org/ontology/Xref_Identifier"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Active_Site_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Alternative_Sequence_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Beta_Strand_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Binding_Site_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Calcium_Binding_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Chain_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cross-link_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Disulfide_Bond_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Domain_Extent_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Glycosylation_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Helix_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Initiator_Methionine_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Intramembrane_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Lipidation_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mass_Spectrometry_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Metal_Binding_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Modified_Residue_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Motif_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mutagenesis_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Natural_Variant_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/NP_Binding_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Nucleotide_Binding_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Peptide_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Propeptide_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Sequence_Conflict_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Signal_Peptide_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Site_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/range">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Turn_Annotation"/>
+		<rdfs:range rdf:resource="http://www.biohackathon.org/resource/faldo#Region"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/category">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Database"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/urlTemplate">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Database"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.jp/bio/12/glyco/glycan#has_motif">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+		<rdfs:range rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycan_Motif"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/has_enzyme_protein">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycosyl_Hydrolase_Reaction"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Protein"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/has_enzyme_protein">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycosyltransferase_Reaction"/>
+		<rdfs:range rdf:resource="http://purl.uniprot.org/core/Protein"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/reverseStrand">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Transcript_Resource"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/chain">
+		<rdfs:domain rdf:resource="IRI"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/substitution">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Alternative_Sequence_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/substitution">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Mutagenesis_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/substitution">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Natural_Variant_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/substitution">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Sequence_Conflict_Annotation"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/cofactor">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Cofactor_Annotation"/>
+		<rdfs:range rdf:resource="IRI"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="https://sparql.glygen.org/ontology/has_motif_name">
+		<rdfs:domain rdf:resource="http://purl.jp/bio/12/glyco/glycan#Glycan_Motif"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/mass">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Simple_Sequence"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/experiments">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Interaction"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/experiments">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Non_Self_Interaction"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="http://purl.uniprot.org/core/experiments">
+		<rdfs:domain rdf:resource="http://purl.uniprot.org/core/Self_Interaction"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:ObjectProperty>
+
+</rdf:RDF>

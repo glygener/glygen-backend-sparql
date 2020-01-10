@@ -1,0 +1,2 @@
+java -jar owl2vowl.jar -file GlyGen.owl
+

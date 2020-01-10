@@ -1,0 +1,863 @@
+<rdf:RDF xmlns="http://xmlns.com/foaf/0.1/"
+     xml:base="http://xmlns.com/foaf/0.1/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://xmlns.com/foaf/0.1/">
+        <dc:description>The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and
+ the Web Ontology Language.</dc:description>
+        <dc:title>Friend of a Friend (FOAF) vocabulary</dc:title>
+    </owl:Ontology>
+
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001012"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001011"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001021"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">is_about is a (currently) primitive relation that relates an information artifact to an entity.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of &quot;mentions&quot; relation. Weaken the is_about relationship to be primitive. 
+We will try to build it back up by elaborating the various subproperties that are more precisely defined.
+Some currently missing phenomena that should be considered &quot;about&quot; are predications - &quot;The only person who knows the answer is sitting beside me&quot; , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Smith, Ceusters, Ruttenberg, 2000 years of philosophy</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">is about</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0001004 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001004">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001003"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
+        <rdfs:label xml:lang="en">specified relative to sequence of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0001011 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001011">
+        <rdfs:label xml:lang="en">is occupied by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0001012 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001012">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <rdfs:label xml:lang="en">has site</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0001021 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001021">
+        <obo:IAO_0000115>The inverse of &apos;is about&apos;.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">described by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0002003 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PROXXX_0002003">
+        <rdfs:label xml:lang="en">lacks part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0002004 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PROXXX_0002004">
+        <rdfs:label xml:lang="en">non-covalently-bound to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0003001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PROXXX_0003001">
+        <rdfs:label xml:lang="en">required for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0003002 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PROXXX_0003002">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">covalently attached to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002160 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002160">
+        <rdfs:label xml:lang="en">only in taxon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002333 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002333">
+        <rdfs:label xml:lang="en">enabled by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_204 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/PROXXX_204">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:label xml:lang="en">has ordinal position</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.jp/bio/12/glyco/glycan#Saccharide -->
+
+    <owl:Class rdf:about="http://purl.jp/bio/12/glyco/glycan#Saccharide">
+        <rdfs:label>Saccharide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOD_00002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00396"/>
+        <rdfs:label>O-glycosyl-L-serine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOD_00005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00396"/>
+        <rdfs:label>O-glycosyl-L-threonine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOD_00006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00693"/>
+        <rdfs:label xml:lang="en">N-glycosylated residue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOD_00160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00693"/>
+        <rdfs:label xml:lang="en">N4-glycosyl-L-asparagine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOD_00396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00693"/>
+        <rdfs:label xml:lang="en">O-glycosylated residue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOD_00693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOD_00764"/>
+        <rdfs:label xml:lang="en">glycosylated residue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOD_00764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00764">
+        <rdfs:label xml:lang="en">glycoconjugated residue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001000">
+        <rdfs:label xml:lang="en">amino acid chain site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0001003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001003">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that specifies the location of an amino acid chain site.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2017/08/28 Darren Natale. In general, the location of amino acid chain sites would be specifed by a single number for one amino acid residue, a range for a motif, or a set for something like dispersed (in primary sequence) active site residues or disulfide bonds. Such sites can also be specified using three-dimensional coordinates, for example, within a crystal structure.</obo:IAO_0000116>
+        <obo:IAO_0000117>Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">amino acid chain site location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PROXXX_0001024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001024">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001004"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001003"/>
+        <rdfs:label>amino acid chain site location specified relative to an amino acid sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000018263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018263">
+        <rdfs:label xml:lang="en">amino acid chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_090000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_090000035">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001012"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_400003159"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001011"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MOD_00160"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0003002"/>
+                                                        <owl:someValuesFrom rdf:resource="https://glytoucan.org/Structures/Glycans/G01361CV"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">plasminogen N-glycosylated 1 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_090000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_090000036"> #Robel, plasminogen N-glycosylated 2 (human) 
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P00747"/> #Robel, protein
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001012"/> #Robel, has site
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_400003159"/> #Robel, Occupied site
+				    <owl:Restriction>/
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001011"/> #Robel, is occupied by
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MOD_00160"/> #Robel, N4-glycosyl-L-asparagine
+                                                    <owl:Restriction>
+							    <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0003002"/> #Robel, covalently attached to
+                                                        <owl:someValuesFrom rdf:resource="https://glytoucan.org/Structures/Glycans/G01670UQ"/> #Robel, Saccharide
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">plasminogen N-glycosylated 2 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_090000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_090000039">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001012"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_400003160"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001011"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MOD_00002"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0003002"/>
+                                                        <owl:someValuesFrom rdf:resource="https://glytoucan.org/Structures/Glycans/G56299XO"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">plasminogen O-glycosylated 1 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_090000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_090000041">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001012"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_400003161"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001011"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MOD_00002"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0003002"/>
+                                                        <owl:someValuesFrom rdf:resource="https://glytoucan.org/Structures/Glycans/G65191ST"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">plasminogen O-glycosylated 2 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_090000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_090000042">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001012"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_400003159"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001011"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MOD_00160"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0003002"/>
+                                                        <owl:someValuesFrom rdf:resource="https://glytoucan.org/Structures/Glycans/G66741YQ"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">plasminogen N-glycosylated 3 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_090000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_090000043">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001012"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_400003159"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001011"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MOD_00160"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0003002"/>
+                                                        <owl:someValuesFrom rdf:resource="https://glytoucan.org/Structures/Glycans/G72954XC"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">plasminogen N-glycosylated 4 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_090000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_090000044">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001012"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_400003159"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001011"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MOD_00160"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0003002"/>
+                                                        <owl:someValuesFrom rdf:resource="https://glytoucan.org/Structures/Glycans/G73866ZM"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">plasminogen N-glycosylated 5 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_100000173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_100000173">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001004"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">amino acid chain site location specified relative to the sequence described by UniProtKB:P00747-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_400003159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_400003159">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001021"/>
+                        <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/PR_300003159"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">plasminogen (human) Asn-308 site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_400003160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_400003160">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001021"/>
+                        <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/PR_300003160"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">plasminogen (human) Ser-268 site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_400003161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_400003161">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001021"/>
+                        <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/PR_300003161"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">plasminogen (human) Thr-365 site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P00747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P00747">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
+        <rdfs:comment>organism-gene intersection_of: parent intersection_of: only_in_taxon NCBITaxon relationship: has_gene_template</rdfs:comment>
+        <rdfs:label xml:lang="en">plasminogen (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pro/pro.owl/&apos;plasminogen_O-glycosylated_2_(human)_***anonymous_site_used***&apos; -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/pro/pro.owl/&apos;plasminogen_O-glycosylated_2_(human)_***anonymous_site_used***&apos;">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P00747"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001012"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PROXXX_0001000"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00747"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001011"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MOD_00002"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0003002"/>
+                                                        <owl:someValuesFrom rdf:resource="https://glytoucan.org/Structures/Glycans/G65191ST"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PROXXX_0001021"/>
+                                        <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/PR_300003161"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://glytoucan.org/Structures/Glycans/G01361CV -->
+
+    <owl:Class rdf:about="https://glytoucan.org/Structures/Glycans/G01361CV">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+    </owl:Class>
+    
+
+
+    <!-- https://glytoucan.org/Structures/Glycans/G01670UQ -->
+
+    <owl:Class rdf:about="https://glytoucan.org/Structures/Glycans/G01670UQ">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+    </owl:Class>
+    
+
+
+    <!-- https://glytoucan.org/Structures/Glycans/G56299XO -->
+
+    <owl:Class rdf:about="https://glytoucan.org/Structures/Glycans/G56299XO">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+    </owl:Class>
+    
+
+
+    <!-- https://glytoucan.org/Structures/Glycans/G65191ST -->
+
+    <owl:Class rdf:about="https://glytoucan.org/Structures/Glycans/G65191ST">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+    </owl:Class>
+    
+
+
+    <!-- https://glytoucan.org/Structures/Glycans/G66741YQ -->
+
+    <owl:Class rdf:about="https://glytoucan.org/Structures/Glycans/G66741YQ">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+    </owl:Class>
+    
+
+
+    <!-- https://glytoucan.org/Structures/Glycans/G72954XC -->
+
+    <owl:Class rdf:about="https://glytoucan.org/Structures/Glycans/G72954XC">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+    </owl:Class>
+    
+
+
+    <!-- https://glytoucan.org/Structures/Glycans/G73866ZM -->
+
+    <owl:Class rdf:about="https://glytoucan.org/Structures/Glycans/G73866ZM">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/12/glyco/glycan#Saccharide"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_300003159 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PR_300003159">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_100000173"/>
+        <obo:PROXXX_204 rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">308</obo:PROXXX_204>
+        <rdfs:label xml:lang="en">UniProtKB:P00747-1 sequence position 308</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_300003160 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PR_300003160">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_100000173"/>
+        <obo:PROXXX_204 rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">268</obo:PROXXX_204>
+        <rdfs:label xml:lang="en">UniProtKB:P00747-1 sequence position 268</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_300003161 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PR_300003161">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_100000173"/>
+        <obo:PROXXX_204 rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">365</obo:PROXXX_204>
+        <rdfs:label xml:lang="en">UniProtKB:P00747-1 sequence position 365</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,4 @@
+{
+    "format":"JSON"
+    ,"qs":"SELECT ?gsite_uri WHERE { ?gsite_uri <http://purl.jp/bio/12/glyco/conjugate#has_saccharide> ?glycan_uri . }"
+}

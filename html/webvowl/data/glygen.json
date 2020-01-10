@@ -1,0 +1,3579 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.6), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "https://sparql.glygen.org/ontology", "http://purl.uniprot.org/core", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.biohackathon.org/resource/faldo", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1", "http://purl.jp/bio/12/glyco/conjugate", "http://purl.jp/bio/12/glyco/glycan", "http://www.w3.org/2004/02/skos/core" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "wot" : "http://xmlns.com/wot/0.1/",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://xmlns.com/foaf/0.1/",
+      "dc" : "http://purl.org/dc/elements/1.1/",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "vs" : "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+      "foaf" : "http://xmlns.com/foaf/0.1/",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title" : {
+      "undefined" : "Friend of a Friend (FOAF) vocabulary"
+    },
+    "iri" : "http://xmlns.com/foaf/0.1/",
+    "description" : {
+      "undefined" : "The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and\n the Web Ontology Language."
+    },
+    "other" : {
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Friend of a Friend (FOAF) vocabulary",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "181",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "183",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "192",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "212",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "215",
+    "type" : "owl:Class"
+  }, {
+    "id" : "216",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "220",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "213",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "223",
+    "type" : "owl:Class"
+  }, {
+    "id" : "208",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "222",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "199",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "218",
+    "type" : "owl:Class"
+  }, {
+    "id" : "211",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "229",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "240",
+    "type" : "owl:Class"
+  }, {
+    "id" : "242",
+    "type" : "owl:Class"
+  }, {
+    "id" : "243",
+    "type" : "owl:Class"
+  }, {
+    "id" : "244",
+    "type" : "owl:Class"
+  }, {
+    "id" : "249",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "248",
+    "type" : "owl:Class"
+  }, {
+    "id" : "230",
+    "type" : "owl:Class"
+  }, {
+    "id" : "250",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "185",
+    "type" : "owl:Class"
+  }, {
+    "id" : "201",
+    "type" : "owl:Class"
+  }, {
+    "id" : "245",
+    "type" : "owl:Class"
+  }, {
+    "id" : "228",
+    "type" : "owl:Class"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "203",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
+  }, {
+    "id" : "206",
+    "type" : "owl:Class"
+  }, {
+    "id" : "207",
+    "type" : "owl:Class"
+  }, {
+    "id" : "209",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "268",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "177",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "180",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "246",
+    "type" : "owl:Class"
+  }, {
+    "id" : "224",
+    "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "46",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "226",
+    "type" : "owl:Class"
+  }, {
+    "id" : "202",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "247",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "owl:Class"
+  }, {
+    "id" : "205",
+    "type" : "owl:Class"
+  }, {
+    "id" : "225",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://xmlns.com/foaf/0.1/location_IRI",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "location_IRI"
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Glycan_Database",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glycan_Database"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "float"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Source_Natural",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Source_Natural"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Self_Interaction",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Self_Interaction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Taxon",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Taxon"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/Glycoprotein",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Glycoprotein"
+    },
+    "comment" : { },
+    "attributes" : [ "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/Disease_Ontology",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Disease_Ontology"
+    },
+    "comment" : { },
+    "attributes" : [ "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Transcript_Resource",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transcript_Resource"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Participant",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Participant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Tissue",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tissue"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Part",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Part"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Neutron_Diffraction",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Neutron_Diffraction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/External_Sequence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "External_Sequence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Activity_Regulation_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity_Regulation_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Active_Site_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Active_Site_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/IRI",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IRI"
+    },
+    "id" : "43"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/conjugate#Glycosylation_Site",
+    "baseIri" : "http://purl.jp/bio/12/glyco/conjugate",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glycosylation_Site"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Cellular_Component",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cellular_Component"
+    },
+    "attributes" : [ "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Calcium_Binding_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calcium_Binding_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Intramembrane_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Intramembrane_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/Reaction_Annotation",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Reaction_Annotation"
+    },
+    "comment" : { },
+    "attributes" : [ "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Mutagenesis_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mutagenesis_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Evidence",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Evidence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Saccharide",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Saccharide"
+    },
+    "attributes" : [ "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Subcellular_Location_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subcellular_Location_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Binding_Site_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Binding_Site_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Site_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/X-Ray_Crystallography",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "X-Ray_Crystallography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Domain_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Domain_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Infrared_Spectroscopy",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Infrared_Spectroscopy"
+    },
+    "attributes" : [ "external" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Disease_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Disease_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Glycosylation_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glycosylation_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Lipidation_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lipidation_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "106"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/Translated_Sequence",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Translated_Sequence"
+    },
+    "comment" : { },
+    "attributes" : [ "external" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Enzyme",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Enzyme"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Catalytic_Activity_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Catalytic_Activity_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Natural_Variant_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Variant_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Alternative_Sequence_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Alternative_Sequence_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/evidence_IRI",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "evidence_IRI"
+    },
+    "id" : "122"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Non_Self_Interaction",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Non_Self_Interaction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Cofactor_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cofactor_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/ESI",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ESI"
+    },
+    "attributes" : [ "external" ],
+    "id" : "129"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/Pathway_Annotation",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pathway_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Gene",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gene"
+    },
+    "attributes" : [ "external" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Glycosyl_Hydrolase_Reaction",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glycosyl_Hydrolase_Reaction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "boolean"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Disruption_Phenotype_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Disruption_Phenotype_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/SELDI",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SELDI"
+    },
+    "attributes" : [ "external" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.biohackathon.org/resource/faldo#FuzzyPosition",
+    "baseIri" : "http://www.biohackathon.org/resource/faldo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FuzzyPosition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Initiator_Methionine_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Initiator_Methionine_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Mass_Spectrometry_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mass_Spectrometry_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Resource_Entry",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource_Entry"
+    },
+    "attributes" : [ "external" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/LSIMS",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LSIMS"
+    },
+    "attributes" : [ "external" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "date"
+    },
+    "attributes" : [ "external" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Inferred_from_Homology_Existence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inferred_from_Homology_Existence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Motif_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Motif_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Pathway_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pathway_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Fiber_Diffraction",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fiber_Diffraction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Beta_Strand_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Beta_Strand_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Domain_Extent_Annotatio",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Domain_Extent_Annotatio"
+    },
+    "attributes" : [ "external" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Glycan_Motif",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glycan_Motif"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60"
+  }, {
+    "instances" : 0,
+    "union" : [ "64", "12", "134", "171", "158" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/NMR_Spectroscopy",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NMR_Spectroscopy"
+    },
+    "attributes" : [ "external" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Polymorphism_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Polymorphism_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Modified_Sequence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Modified_Sequence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Function_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Function_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "175"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/attrib_IRI",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "attrib_IRI"
+    },
+    "id" : "67"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/PTM_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PTM_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "181"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/Gene_Locus",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gene_Locus"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Electron_Microscopy",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Electron_Microscopy"
+    },
+    "attributes" : [ "external" ],
+    "id" : "183"
+  }, {
+    "instances" : 0,
+    "union" : [ "103", "152", "106", "18", "185", "125", "186", "24", "84", "42", "139", "187", "33" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "184"
+  }, {
+    "instances" : 0,
+    "union" : [ "79", "50", "174" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "189"
+  }, {
+    "instances" : 0,
+    "union" : [ "79", "30" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "111"
+  }, {
+    "instances" : 0,
+    "union" : [ "49", "48" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Signal_Peptide_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Signal_Peptide_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "192"
+  }, {
+    "instances" : 0,
+    "union" : [ "140", "101" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "117"
+  }, {
+    "instances" : 0,
+    "union" : [ "39", "33" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "113"
+  }, {
+    "instances" : 0,
+    "union" : [ "196", "58" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "195"
+  }, {
+    "instances" : 0,
+    "union" : [ "137", "18" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "197"
+  }, {
+    "instances" : 0,
+    "union" : [ "65", "70", "173", "103", "48", "175", "106", "80", "185", "201", "181", "84", "85", "86", "119", "192", "146", "202", "42", "89", "187", "120", "203", "152", "204", "18", "125", "186", "205", "161", "206", "207", "208", "209", "52", "166", "165", "55", "139", "99" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Sequence_Caution_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sequence_Caution_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "187"
+  }, {
+    "instances" : 0,
+    "union" : [ "213", "124", "20" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "212"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Simple_Sequence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Simple_Sequence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Prediction",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Prediction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "215"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/FAB",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FAB"
+    },
+    "attributes" : [ "external" ],
+    "id" : "216"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Glycosyltransferase_Reaction",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glycosyltransferase_Reaction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "101"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/GO_Classifier",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GO_Classifier"
+    },
+    "attributes" : [ "external" ],
+    "id" : "220"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#token",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "token"
+    },
+    "attributes" : [ "external" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Image",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Image"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Interaction",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interaction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "213"
+  }, {
+    "iri" : "http://www.biohackathon.org/resource/faldo#ExactPosition",
+    "baseIri" : "http://www.biohackathon.org/resource/faldo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExactPosition"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "instances" : 0,
+    "union" : [ "79", "33" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "76"
+  }, {
+    "instances" : 0,
+    "union" : [ "24", "62" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "72"
+  }, {
+    "instances" : 0,
+    "union" : [ "172", "215", "216", "153", "40", "129", "183", "224", "98", "225", "164", "226", "88", "147" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "223"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Nucleotide_Binding_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nucleotide_Binding_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "208"
+  }, {
+    "instances" : 0,
+    "union" : [ "64", "65", "227", "70", "173", "103", "106", "80", "175", "185", "201", "181", "84", "85", "228", "86", "119", "192", "202", "146", "42", "229", "89", "187", "120", "152", "18", "125", "186", "205", "161", "206", "207", "209", "208", "55", "158", "99" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "45"
+  }, {
+    "instances" : 0,
+    "union" : [ "39", "33" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "222"
+  }, {
+    "instances" : 0,
+    "union" : [ "64", "12", "134", "158", "171" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "69"
+  }, {
+    "instances" : 0,
+    "union" : [ "79", "33" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "54"
+  }, {
+    "instances" : 0,
+    "union" : [ "35", "36", "230" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Sequence_Conflict_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sequence_Conflict_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "139"
+  }, {
+    "instances" : 0,
+    "union" : [ "48", "73", "33" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "218"
+  }, {
+    "instances" : 0,
+    "union" : [ "65", "70", "103", "106", "80", "185", "201", "85", "228", "86", "192", "202", "42", "120", "203", "152", "204", "18", "186", "205", "161", "206", "207", "208", "209", "165", "55", "139" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Glycosequence",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glycosequence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Journal_Citation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Journal_Citation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Resource",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource"
+    },
+    "attributes" : [ "external" ],
+    "id" : "229"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/Xref_Identifier",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Xref_Identifier"
+    },
+    "attributes" : [ "external" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Cross-link_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cross-link_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Pathway",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pathway"
+    },
+    "attributes" : [ "external" ],
+    "id" : "240"
+  }, {
+    "instances" : 0,
+    "union" : [ "79", "33" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "242"
+  }, {
+    "instances" : 0,
+    "union" : [ "64", "132", "42", "158", "33" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "243"
+  }, {
+    "instances" : 0,
+    "union" : [ "245", "246", "160", "247", "248" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "244"
+  }, {
+    "instances" : 0,
+    "union" : [ "150", "16" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "249"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Amino_Acid",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Amino_Acid"
+    },
+    "attributes" : [ "external" ],
+    "id" : "127"
+  }, {
+    "instances" : 0,
+    "union" : [ "213", "124", "20" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "149"
+  }, {
+    "instances" : 0,
+    "union" : [ "158", "33" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Evidence_at_Protein_Level_Existence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Evidence_at_Protein_Level_Existence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "248"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Class",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Class"
+    },
+    "attributes" : [ "external" ],
+    "id" : "230"
+  }, {
+    "instances" : 0,
+    "union" : [ "213", "124", "20" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "250"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Enzyme_Regulation_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Enzyme_Regulation_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "227"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/Canonical_Residue",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Canonical_Residue"
+    },
+    "comment" : { },
+    "attributes" : [ "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Modified_Residue_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Modified_Residue_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Metal_Binding_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Metal_Binding_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "201"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Evidence_at_Transcript_Level_Existence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Evidence_at_Transcript_Level_Existence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "245"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Domain_Extent_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Domain_Extent_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "228"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Concept",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept"
+    },
+    "attributes" : [ "external" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Turn_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Turn_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://www.biohackathon.org/resource/faldo#Region",
+    "baseIri" : "http://www.biohackathon.org/resource/faldo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Region"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#Carbohydrate_Format",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Carbohydrate_Format"
+    },
+    "attributes" : [ "external" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Propeptide_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Propeptide_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "206"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Disulfide_Bond_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Disulfide_Bond_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "207"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/NP_Binding_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NP_Binding_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "209"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/disease_IRI",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "disease_IRI"
+    },
+    "id" : "158"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Structure_Resource",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Structure_Resource"
+    },
+    "attributes" : [ "external" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "268",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "60", "62" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "5"
+  }, {
+    "instances" : 0,
+    "union" : [ "213", "124", "20" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "9"
+  }, {
+    "instances" : 0,
+    "union" : [ "43", "23" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "178"
+  }, {
+    "instances" : 0,
+    "union" : [ "137", "229" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Database",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Database"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23"
+  }, {
+    "instances" : 0,
+    "union" : [ "39", "33" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "180"
+  }, {
+    "instances" : 0,
+    "union" : [ "120", "80", "42", "139" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "28"
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "191"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Predicted_Existence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Predicted_Existence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "246"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/API",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "API"
+    },
+    "attributes" : [ "external" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "200",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "46",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://purl.uniprot.org/core/PD",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Peptide_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Peptide_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Protein",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Protein"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Structured_Name",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Structured_Name"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/Reaction_Participant",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Reaction_Participant"
+    },
+    "comment" : { },
+    "attributes" : [ "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Helix_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Helix_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "204"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Uncertain_Existence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Uncertain_Existence"
+    },
+    "attributes" : [ "external" ],
+    "id" : "247"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/Saccharide_Set",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Saccharide_Set",
+      "undefined" : "Saccharide Set"
+    },
+    "comment" : { },
+    "attributes" : [ "external" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/Chain_Annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chain_Annotation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/MALDI",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MALDI"
+    },
+    "attributes" : [ "external" ],
+    "id" : "225"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "182",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "193",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "198",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "210",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "214",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "219",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "221",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "231",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "232",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "233",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "234",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "236",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "237",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "239",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "241",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "251",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "253",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "254",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "256",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "258",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "259",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "260",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "261",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "262",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "264",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "265",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "266",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "267",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "269",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "270",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "271",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "273",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "274",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "275",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "276",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "277",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "278",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "279",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "280",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "281",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "282",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "283",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "284",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "285",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "286",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "287",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "288",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://sparql.glygen.org/ontology/geneRange",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "geneRange"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#has_glycosequence",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "has_glycosequence"
+    },
+    "domain" : "5",
+    "attributes" : [ "external", "object" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/experiments",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "experiments"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/activity",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "activity"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.biohackathon.org/resource/faldo#begin",
+    "baseIri" : "http://www.biohackathon.org/resource/faldo",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "begin"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/measuredValue",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "measuredValue"
+    },
+    "domain" : "18",
+    "attributes" : [ "external", "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/urlTemplate",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "urlTemplate"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/exonRange",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "exonRange"
+    },
+    "domain" : "26",
+    "attributes" : [ "external", "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/substitution",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "substitution"
+    },
+    "domain" : "28",
+    "attributes" : [ "external", "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/title",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "title"
+    },
+    "domain" : "30",
+    "attributes" : [ "external", "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/submittedName",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "submittedName"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/has_parent",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "has_parent"
+    },
+    "domain" : "38",
+    "attributes" : [ "external", "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#related",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "related"
+    },
+    "domain" : "42",
+    "attributes" : [ "external", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "comment"
+    },
+    "domain" : "45",
+    "attributes" : [ "external", "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/rxnOutput",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "rxnOutput"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#has_sequence",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_sequence"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/version",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "version"
+    },
+    "domain" : "54",
+    "attributes" : [ "external", "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/pathway",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "pathway"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/has_motif_name",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_motif_name"
+    },
+    "domain" : "60",
+    "attributes" : [ "external", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#has_image",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "has_image"
+    },
+    "domain" : "62",
+    "attributes" : [ "external", "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/source",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "source"
+    },
+    "domain" : "67",
+    "attributes" : [ "external", "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "prefLabel"
+    },
+    "domain" : "69",
+    "attributes" : [ "external", "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#has_evidence",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "has_evidence"
+    },
+    "domain" : "72",
+    "attributes" : [ "external", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/rxnName",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "rxnName"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/reviewed",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "reviewed"
+    },
+    "domain" : "76",
+    "attributes" : [ "external", "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/canonical",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "canonical"
+    },
+    "domain" : "79",
+    "attributes" : [ "external", "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/reverseStrand",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "reverseStrand"
+    },
+    "domain" : "26",
+    "attributes" : [ "external", "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/has_pro_entry",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "has_pro_entry"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/has_residue_id",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_residue_id"
+    },
+    "domain" : "38",
+    "attributes" : [ "external", "object" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/locatedIn",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "locatedIn"
+    },
+    "domain" : "84",
+    "attributes" : [ "external", "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/abbreviation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "abbreviation"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/replaces",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "replaces"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "exactMatch"
+    },
+    "domain" : "30",
+    "attributes" : [ "external", "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/annotation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "annotation"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#resource_entry",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "resource_entry"
+    },
+    "domain" : "62",
+    "attributes" : [ "external", "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/has_residue_name",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_residue_name"
+    },
+    "domain" : "38",
+    "attributes" : [ "external", "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/attached_by",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "attached_by"
+    },
+    "domain" : "38",
+    "attributes" : [ "external", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/obsolete",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "obsolete"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/cellularLocation",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "cellularLocation"
+    },
+    "domain" : "105",
+    "attributes" : [ "external", "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#is_from_source",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "is_from_source"
+    },
+    "domain" : "62",
+    "attributes" : [ "external", "object" ],
+    "id" : "107"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/xrefId",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "xrefId"
+    },
+    "domain" : "109",
+    "attributes" : [ "external", "object" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/name",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "name"
+    },
+    "domain" : "111",
+    "attributes" : [ "external", "object" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/recommendedName",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "recommendedName"
+    },
+    "domain" : "113",
+    "attributes" : [ "external", "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/xrefIdType",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "xrefIdType"
+    },
+    "domain" : "109",
+    "attributes" : [ "external", "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/has_enzyme_protein",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "has_enzyme_protein"
+    },
+    "domain" : "117",
+    "attributes" : [ "external", "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#has_url_template",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_url_template"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/volume",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "volume"
+    },
+    "domain" : "30",
+    "attributes" : [ "external", "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/cellularComponent",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "cellularComponent"
+    },
+    "domain" : "3",
+    "attributes" : [ "external", "object" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#has_amino_acid",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "has_amino_acid"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.biohackathon.org/resource/faldo#position",
+    "baseIri" : "http://www.biohackathon.org/resource/faldo",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "position"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/xrefIdentifier",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "xrefIdentifier"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/hasReaction",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "hasReaction"
+    },
+    "domain" : "132",
+    "attributes" : [ "external", "object" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/organism",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "organism"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "133"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/participantName",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "participantName"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "object" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/resolution",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "resolution"
+    },
+    "domain" : "137",
+    "attributes" : [ "external", "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/conflictingSequence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "conflictingSequence"
+    },
+    "domain" : "139",
+    "attributes" : [ "external", "object" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#degraded_by",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "degraded_by"
+    },
+    "domain" : "62",
+    "attributes" : [ "external", "object" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#altLabel",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "altLabel"
+    },
+    "domain" : "143",
+    "attributes" : [ "external", "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/translatedTo",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "translatedTo"
+    },
+    "domain" : "26",
+    "attributes" : [ "external", "object" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/evidence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "evidence"
+    },
+    "domain" : "67",
+    "attributes" : [ "external", "object" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/participant",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "participant"
+    },
+    "domain" : "149",
+    "attributes" : [ "external", "object" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/replacedBy",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "replacedBy"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "object" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/mnemonic",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "mnemonic"
+    },
+    "domain" : "155",
+    "attributes" : [ "external", "object" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/chainSequenceMapping",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "chainSequenceMapping"
+    },
+    "domain" : "137",
+    "attributes" : [ "external", "object" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/disease",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "158",
+    "label" : {
+      "IRI-based" : "disease"
+    },
+    "domain" : "99",
+    "attributes" : [ "external", "object" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/crc64Checksum",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "163",
+    "label" : {
+      "IRI-based" : "crc64Checksum"
+    },
+    "domain" : "79",
+    "attributes" : [ "external", "object" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/fullName",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "fullName"
+    },
+    "domain" : "34",
+    "attributes" : [ "external", "object" ],
+    "id" : "167"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/hasLocus",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasLocus"
+    },
+    "domain" : "134",
+    "attributes" : [ "external", "object" ],
+    "id" : "168"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/ensTranscript",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "ensTranscript"
+    },
+    "domain" : "79",
+    "attributes" : [ "external", "object" ],
+    "id" : "169"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/doName",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "doName"
+    },
+    "domain" : "31",
+    "attributes" : [ "external", "object" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/database",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "178",
+    "label" : {
+      "IRI-based" : "database"
+    },
+    "domain" : "177",
+    "attributes" : [ "external", "object" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/alternativeName",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "alternativeName"
+    },
+    "domain" : "180",
+    "attributes" : [ "external", "object" ],
+    "id" : "179"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/mass",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "mass"
+    },
+    "domain" : "62",
+    "attributes" : [ "external", "object" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/mass",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "mass"
+    },
+    "domain" : "79",
+    "attributes" : [ "external", "object" ],
+    "id" : "188"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/chromosome",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "chromosome"
+    },
+    "domain" : "191",
+    "attributes" : [ "external", "object" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#in_carbohydrate_format",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "in_carbohydrate_format"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#label",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "200",
+    "label" : {
+      "IRI-based" : "label"
+    },
+    "domain" : "199",
+    "attributes" : [ "external", "object" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/range",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "range"
+    },
+    "domain" : "211",
+    "attributes" : [ "external", "object" ],
+    "id" : "210"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/has_saccharide_set",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "196",
+    "label" : {
+      "IRI-based" : "has_saccharide_set"
+    },
+    "domain" : "58",
+    "attributes" : [ "external", "object" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/citation",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "citation"
+    },
+    "domain" : "218",
+    "attributes" : [ "external", "object" ],
+    "id" : "217"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/attribution",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "attribution"
+    },
+    "domain" : "103",
+    "attributes" : [ "external", "object" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/enzyme",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "enzyme"
+    },
+    "domain" : "222",
+    "attributes" : [ "external", "object" ],
+    "id" : "221"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/pathwayName",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "pathwayName"
+    },
+    "domain" : "57",
+    "attributes" : [ "external", "object" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/method",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "223",
+    "label" : {
+      "IRI-based" : "method"
+    },
+    "domain" : "197",
+    "attributes" : [ "external", "object" ],
+    "id" : "232"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/conjugate#has_saccharide",
+    "baseIri" : "http://purl.jp/bio/12/glyco/conjugate",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "has_saccharide"
+    },
+    "domain" : "195",
+    "attributes" : [ "external", "object" ],
+    "id" : "233"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/chain",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "chain"
+    },
+    "domain" : "43",
+    "attributes" : [ "external", "object" ],
+    "id" : "234"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#synthesized_by",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "synthesized_by"
+    },
+    "domain" : "62",
+    "attributes" : [ "external", "object" ],
+    "id" : "235"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/component",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "component"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "236"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "subClassOf"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "object" ],
+    "id" : "237"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/xeno",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "xeno"
+    },
+    "domain" : "212",
+    "attributes" : [ "external", "object" ],
+    "id" : "238"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#has_taxon",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "has_taxon"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "239"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/conjugate#glycosylated_at",
+    "baseIri" : "http://purl.jp/bio/12/glyco/conjugate",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "glycosylated_at"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "241"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/detached_by",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "detached_by"
+    },
+    "domain" : "38",
+    "attributes" : [ "external", "object" ],
+    "id" : "251"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/ecName",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "ecName"
+    },
+    "domain" : "34",
+    "attributes" : [ "external", "object" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/cofactor",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "cofactor"
+    },
+    "domain" : "125",
+    "attributes" : [ "external", "object" ],
+    "id" : "253"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/author",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "author"
+    },
+    "domain" : "30",
+    "attributes" : [ "external", "object" ],
+    "id" : "254"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/measuredError",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "measuredError"
+    },
+    "domain" : "18",
+    "attributes" : [ "external", "object" ],
+    "id" : "255"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/sequence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "189",
+    "label" : {
+      "IRI-based" : "sequence"
+    },
+    "domain" : "184",
+    "attributes" : [ "external", "object" ],
+    "id" : "256"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/classifiedWith",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "220",
+    "label" : {
+      "IRI-based" : "classifiedWith"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "257"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/cofactorLabel",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "cofactorLabel"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "object" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/date",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "date"
+    },
+    "domain" : "30",
+    "attributes" : [ "external", "object" ],
+    "id" : "259"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#glycan_database",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "glycan_database"
+    },
+    "domain" : "96",
+    "attributes" : [ "external", "object" ],
+    "id" : "260"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/precursor",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "precursor"
+    },
+    "domain" : "79",
+    "attributes" : [ "external", "object" ],
+    "id" : "261"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/isolatedFrom",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "isolatedFrom"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "262"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/shortName",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "shortName"
+    },
+    "domain" : "34",
+    "attributes" : [ "external", "object" ],
+    "id" : "263"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/has_canonical_residue",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "has_canonical_residue"
+    },
+    "domain" : "62",
+    "attributes" : [ "external", "object" ],
+    "id" : "264"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/rxnSummary",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "rxnSummary"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "object" ],
+    "id" : "265"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/rxnDisease",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "rxnDisease"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "object" ],
+    "id" : "266"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/pathwaySummary",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "pathwaySummary"
+    },
+    "domain" : "57",
+    "attributes" : [ "external", "object" ],
+    "id" : "267"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/goClassification",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "goClassification"
+    },
+    "domain" : "230",
+    "attributes" : [ "external", "object" ],
+    "id" : "269"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/scientificName",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "scientificName"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "object" ],
+    "id" : "270"
+  }, {
+    "iri" : "http://www.biohackathon.org/resource/faldo#end",
+    "baseIri" : "http://www.biohackathon.org/resource/faldo",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "end"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "271"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/rxnInput",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "rxnInput"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "object" ],
+    "id" : "272"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/encodedBy",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "encodedBy"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/created",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "created"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "274"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/pages",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "pages"
+    },
+    "domain" : "30",
+    "attributes" : [ "external", "object" ],
+    "id" : "275"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/fragment",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "fragment"
+    },
+    "domain" : "79",
+    "attributes" : [ "external", "object" ],
+    "id" : "276"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/orfName",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "orfName"
+    },
+    "domain" : "134",
+    "attributes" : [ "external", "object" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.biohackathon.org/resource/faldo#location",
+    "baseIri" : "http://www.biohackathon.org/resource/faldo",
+    "range" : "249",
+    "label" : {
+      "IRI-based" : "location"
+    },
+    "domain" : "58",
+    "attributes" : [ "external", "object" ],
+    "id" : "278"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/pathwayDatabase",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "pathwayDatabase"
+    },
+    "domain" : "57",
+    "attributes" : [ "external", "object" ],
+    "id" : "279"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/transcriptRange",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "transcriptRange"
+    },
+    "domain" : "26",
+    "attributes" : [ "external", "object" ],
+    "id" : "280"
+  }, {
+    "iri" : "http://purl.jp/bio/12/glyco/glycan#has_motif",
+    "baseIri" : "http://purl.jp/bio/12/glyco/glycan",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "has_motif"
+    },
+    "domain" : "62",
+    "attributes" : [ "external", "object" ],
+    "id" : "281"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/interaction",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "250",
+    "label" : {
+      "IRI-based" : "interaction"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "282"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/category",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "category"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "object" ],
+    "id" : "283"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/attribution",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "attribution"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "284"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "268",
+    "label" : {
+      "IRI-based" : "seeAlso"
+    },
+    "domain" : "243",
+    "attributes" : [ "external", "object" ],
+    "id" : "285"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/modified",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "modified"
+    },
+    "domain" : "242",
+    "attributes" : [ "external", "object" ],
+    "id" : "286"
+  }, {
+    "iri" : "http://purl.uniprot.org/core/existence",
+    "baseIri" : "http://purl.uniprot.org/core",
+    "range" : "244",
+    "label" : {
+      "IRI-based" : "existence"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "287"
+  }, {
+    "iri" : "https://sparql.glygen.org/ontology/rxnEvidence",
+    "baseIri" : "https://sparql.glygen.org/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "rxnEvidence"
+    },
+    "domain" : "48",
+    "attributes" : [ "external", "object" ],
+    "id" : "288"
+  } ]
+}
