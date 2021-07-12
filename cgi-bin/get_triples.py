@@ -35,33 +35,37 @@ def get_triples(endpoint_uri, graph_uri, qs, triple_format):
     sparql = SPARQLWrapper(endpoint_uri)
     sparql.addDefaultGraph(graph_uri)
     sparql.setQuery(qs)
-    
+   
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    n = len(results["results"]["bindings"])
+
     if triple_format == "N3":
         sparql.setReturnFormat(N3)
         results = sparql.query().convert()
-        return results
+        return results, n
     elif triple_format == "JSON":
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
-        return results
+        return results, n
     elif triple_format == "XML":
         sparql.setReturnFormat(XML)
         results = sparql.query().convert()
-        return results.toxml()
+        return results.toxml(), n
     elif triple_format == "RDFXML":
         sparql.setReturnFormat(RDFXML)
         results = sparql.query().convert()
-        return results.serialize()
+        return results.serialize(), n
     elif triple_format == "CSV":
         sparql.setReturnFormat(CSV)
         results = sparql.query().convert()
-        return results
+        return results, n
     elif triple_format == "TSV":
         sparql.setReturnFormat(CSV)
         results = sparql.query().convert()
-        return results
+        return results, n
     else:
-        return "bad format!"
+        return "bad format!", 0
 
     return
 
@@ -113,10 +117,22 @@ def main():
             prefixes += "PREFIX %s: <%s>\n" % (k, db_obj["nsmap"][k])
         qs = prefixes + " "
         qs += in_json["qs"]
-        qs += " LIMIT %s" % db_obj["limit"]
-        triples = get_triples(db_obj["endpointuri"], db_obj["graphuri"], qs, in_json["format"])
+        if in_json["qs"].lower().find(" limit ") == -1:
+            qs += " LIMIT %s OFFSET 0" % (db_obj["limit"])
+        else:
+            q_part = in_json["qs"].split(" limit ")[0]
+            if in_json["qs"].find(" limit ") == -1:
+                q_part = in_json["qs"].split(" LIMIT ")[0]
+            limit_part = in_json["qs"].lower().split(" limit ")[-1]
+            limit_value = limit_part.strip().split(" ")[0]
+            if limit_value.isnumeric() == True and int(limit_value) > int(db_obj["limit"]):
+                qs = prefixes + " " + q_part + " LIMIT %s OFFSET 0" % (db_obj["limit"])
+        #print qs
+        triples, ntriples = get_triples(db_obj["endpointuri"], db_obj["graphuri"], qs, in_json["format"])
         out_json = {"taskstatus":1, "errormsg":""}
         out_json["triples"] = triples
+        out_json["ntriples"] = ntriples
+
     except Exception, e:
         print e
         out_json = {"taskstatus":0, "errormsg":"query failed!"}

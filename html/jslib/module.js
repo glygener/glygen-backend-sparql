@@ -96,7 +96,7 @@ function setQueryValue(){
     $('#queryvalue').val(cn);
 
     
-    var cn = '<b>Load example sparql query</b><br>';
+    var cn = '<b>Load example SPARQL query</b><br>';
     cn += '<select id=queryselector style="width:100%;height:30px;background:#ECF4F9;margin:3px;">';
     for (var queryGroupId in querySet){
         for (var qid in querySet[queryGroupId]["querydict"]){
@@ -157,8 +157,12 @@ function fillQueryResultsViewCn(menuId){
                 $("#resultscn").html("<br><br>" + resJson["errormsg"]);
             }
             else{
+                var style = 'font-size:11px;float:right;padding:3px;';
+                var cn = '<div style="'+style+'">';
+                cn += 'Total of ' + resJson["ntriples"] + ' triples returned.';
+                cn += '</div>';
                 var style = 'width:100%;height:800px;padding:10px;text-align:left;';
-                var cn = '<textarea style="'+style+'">';
+                cn += '<textarea style="'+style+'">';
                 if (this.inJson["format"] == "JSON"){
                     cn += JSON.stringify(resJson["triples"],  null, 2);
                 }

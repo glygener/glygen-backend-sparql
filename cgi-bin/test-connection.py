@@ -3,13 +3,17 @@
 from SPARQLWrapper import SPARQLWrapper, JSON, XML, N3, RDFXML, CSV 
 from rdflib import Graph
 
-server = "dev"
-#server = "beta"
+#beta
+#graph_uri = "http://beta-sparql.glygen.org"
+#endpoint_uri = "http://beta-sparql.glygen.org:8880/sparql"
 
-graph_uri = "http://beta-sparql.glygen.org" if server == "beta" else "http://sparql.glygen.org"
-#sparql = SPARQLWrapper("http://localhost:8890/sparql")
-#sparql = SPARQLWrapper("http://localhost:8880/sparql")
-sparql = SPARQLWrapper("http://beta-sparql.glygen.org:8880/sparql")
+
+#prd
+graph_uri = "http://sparql.glygen.org"
+endpoint_uri = "http://sparql.glygen.org:8880/sparql"
+
+
+sparql = SPARQLWrapper(endpoint_uri)
 
 qs = "SELECT ?gsite_uri FROM <%s> " % (graph_uri)
 qs += "WHERE { ?gsite_uri <http://purl.jp/bio/12/glyco/conjugate#has_saccharide> ?glycan_uri . } "

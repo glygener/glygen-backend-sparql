@@ -141,7 +141,7 @@
                 "dbinfo":{
                     "endpointuri":"http://localhost:8890/sparql"
                     ,"graphuri":"http://sparql.glygen.org"
-                    ,"limit":"1000"
+                    ,"limit":"10000"
                     ,"nsmap":{
                         "up":"http://purl.uniprot.org/core/"
                         ,"skos":"http://www.w3.org/2004/02/skos/core#"
@@ -181,7 +181,7 @@
                 "dbinfo":{
                     "endpointuri":"http://localhost:8890/sparql"
                     ,"graphuri":"http://sparql.glygen.org"
-                    ,"limit":"1000"
+                    ,"limit":"10000"
                     ,"nsmap":{
                         "up":"http://purl.uniprot.org/core/"
                         ,"skos":"http://www.w3.org/2004/02/skos/core#"
@@ -221,7 +221,7 @@
                 "dbinfo":{
                     "endpointuri":"http://localhost:8880/sparql"
                     ,"graphuri":"http://beta-sparql.glygen.org"
-                    ,"limit":"1000"
+                    ,"limit":"10000"
                     ,"nsmap":{
                         "up":"http://purl.uniprot.org/core/"
                         ,"skos":"http://www.w3.org/2004/02/skos/core#"
@@ -261,7 +261,7 @@
                 "dbinfo":{
                     "endpointuri":"http://localhost:8880/sparql"
                     ,"graphuri":"http://sparql.glygen.org"
-                    ,"limit":"1000"
+                    ,"limit":"10000"
                     ,"nsmap":{
                         "up":"http://purl.uniprot.org/core/"
                         ,"skos":"http://www.w3.org/2004/02/skos/core#"

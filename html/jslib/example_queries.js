@@ -7,8 +7,8 @@ var querySet = {
                 ,"qlines":[
                     "SELECT DISTINCT ?protein_uri ?protein_name  "
                     ,"WHERE {"
-                    ,"   <http://glygen.org/glycan/G24994OK> glycan:synthesized_by ?rxn . ?rxn gly:has_enzyme_protein ?protein_uri . ?protein_uri up:recommendedName ?recnameuri . ?recnameuri up:fullName ?protein_name . ?protein_uri up:organism <http://purl.uniprot.org/taxonomy/10090> ."
-                    ,"}"
+                    ,"   <http://glygen.org/glycan/G24994OK> glycan:synthesized_by ?rxn . ?rxn gly:has_enzyme_protein ?protein_uri . ?protein_uri up:organism <http://purl.uniprot.org/taxonomy/10090> . optional { ?protein_uri up:recommendedName ?recnameuri . ?recnameuri up:fullName ?protein_name . }"
+                    ,"} LIMIT 10000 OFFSET 0"
                 ],
             },
             "1.2":{
@@ -17,7 +17,7 @@ var querySet = {
                     "SELECT DISTINCT ?glycan_uri  "
                     ,"WHERE {"
                     ,"?glycan_uri glycan:synthesized_by ?rxn . ?rxn gly:has_enzyme_protein <http://purl.uniprot.org/uniprot/P42867> . "
-                    ,"}"
+                    ,"} LIMIT 10000 OFFSET 0"
                 ],
             },
             "1.3":{
@@ -26,7 +26,7 @@ var querySet = {
                     "SELECT DISTINCT ?gene_name ?gene_locus  "
                     ,"WHERE {"
                     ,"   <http://glygen.org/glycan/G24994OK> glycan:synthesized_by ?rxn . ?rxn gly:has_enzyme_protein ?protein_uri .  ?protein_uri up:encodedBy ?gene_uri . ?gene_uri skos:prefLabel ?gene_name . ?gene_uri gly:hasLocus ?gene_locus . ?protein_uri up:organism <http://purl.uniprot.org/taxonomy/10090> ."
-                    ,"}"
+                    ,"} LIMIT 10000 OFFSET 0"
                 ],
             }
         }
@@ -40,7 +40,7 @@ var querySet = {
                     "SELECT DISTINCT ?glycoprotein_id  ?pos ?amino_acid"
                     ,"WHERE {"
                     ,"   ?glycoprotein_id gco:glycosylated_at ?site . ?site faldo:location ?loc . ?loc faldo:position ?pos . ?loc glycan:has_amino_acid ?amino_acid . ?site gco:has_saccharide <http://glygen.org/glycan/G17689DH> . "
-                    ,"}"
+                    ,"} LIMIT 10000 OFFSET 0"
                 ],
             },
             "2.2":{
@@ -49,7 +49,7 @@ var querySet = {
                     "SELECT DISTINCT ?isoform_uri "
                     ,"WHERE { "
                     ,"      ?glycoprotein_uri up:sequence ?isoform_uri . ?protein_uri up:sequence ?isoform_uri .  ?protein_uri up:organism <http://purl.uniprot.org/taxonomy/10090> . ?isoform_uri gly:canonical \"true\"^^<http://www.w3.org/2001/XMLSchema#boolean> . "
-                    ,"} "
+                    ,"}  LIMIT 10000 OFFSET 0"
                 ],
             },
             "2.3":{
@@ -58,7 +58,7 @@ var querySet = {
                     "SELECT DISTINCT \"P14210\" ?protein_function "
                     ,"WHERE {"
                     ,"   <http://purl.uniprot.org/uniprot/P14210> up:annotation ?annuri . ?annuri rdfs:comment ?protein_function . ?annuri rdf:type up:Function_Annotation ."
-                    ,"}"
+                    ,"} LIMIT 10000 OFFSET 0"
                 ],
             }
         }

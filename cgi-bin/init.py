@@ -56,7 +56,7 @@ def main():
             elif config_json["server"] in ["beta"]:
                 url = "https://%s-%s.glygen.org/" % (config_json["server"], domain);
             elif config_json["server"] in ["prd"]:
-                url = "https://%s.glygen.org/" % (domain, config_json["server"]);
+                url = "https://%s.glygen.org/" % (domain);
             domain_dict[domain] = url
         
         domain_dict["portal"] = "https://%s.glygen.org/" % (config_json["server"])
@@ -65,6 +65,7 @@ def main():
 
         out_json = {"moduleversion":versions, "domains":domain_dict, "taskstatus":1};
     except Exception, e:
+        print e
         out_json = {"taskstatus":0, "errormsg":"query failed!"}
 
     print json.dumps(out_json, indent=4)

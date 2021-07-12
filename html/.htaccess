@@ -1,0 +1,12 @@
+RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^/?$  /index.html?pageid=home [L]
+
+RewriteRule ^(create|home|datamodel|workflow|faq|deposit)/?$  /index.html?pageid=$1 [L]
+RewriteRule ^(GLYDS.+)/(.+)/(readme)/?$  /cgi-bin/get_readme_txt.py?injson={"objid":"$1","objver":"$2"} [L] 
+RewriteRule ^(GLYDS.+)/?$  /index.html [L]
+RewriteRule ^(DSBCO_.+)/(.+)/?$  /cgi-bin/get_bco.py?injson={"objid":"$1","objver":"$2"} [L]
+RewriteRule ^(DSBCO_.+)/?$  /cgi-bin/get_bco.py?injson={"objid":"$1"} [L]
+
+
+
